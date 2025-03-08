@@ -22,14 +22,14 @@ int main()
     printf("População: \n");
     scanf("%d", &populacao1);
 
-    printf("Digite o número de pontos turísticos: \n");
-    scanf("%d", &numeroPontosTuristicos1);
-
     printf("Digite a área da cidade: \n");
     scanf("%f", &area1);
 
     printf("Digite o número do PIB: \n");
     scanf("%f", &pib1);
+
+    printf("Digite o número de pontos turísticos: \n");
+    scanf("%d", &numeroPontosTuristicos1);
 
     printf("Carta 1: \n");
     printf("Estado: %s \n", estado1);
