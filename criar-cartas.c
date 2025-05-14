@@ -31,6 +31,8 @@ int main()
     printf("Digite o número de pontos turísticos: \n");
     scanf("%d", &numeroPontosTuristicos1);
 
+    // CALCULANDO DENSIDADE DEMOGRAFICA E PIB PER CAPITA DA CARTA 1
+
     densidadePopulacional1 = (float)populacao1 / area1;
     pibPercapta1 = pib1 / (float)populacao1;
 
@@ -74,6 +76,8 @@ int main()
     printf("Digite o número de pontos turísticos: \n");
     scanf("%d", &numeroPontosTuristicos2);
 
+    // CALCULANDO DENSIDADE DEMOGRAFICA E PIB PER CAPITA DA CARTA 2
+
     densidadePopulacional2 = (float)populacao2 / area2;
     pibPercapta2 = pib2 / (float)populacao2;
 
@@ -87,6 +91,8 @@ int main()
     printf("Número de pontos turisticos: %d \n", numeroPontosTuristicos2);
     printf("Densidade populacional: %.2f \n", densidadePopulacional2);
     printf("PIB per Capita: %.2f \n", pibPercapta2);
+
+    // MENU INTERATIVO
 
     int atributoEscolhido;
 
